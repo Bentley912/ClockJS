@@ -7,12 +7,12 @@ The challenge here was to getthe time using JS ( const now = Date(); ) and then 
 
 So it was a simple math equation, for example with seconds, there 60 seconds in a minute, so 60 parts. We took sthe current time/60 * 360. This would give us a degree. Then the second - hand would move the correct amount of degrees every second. 
 
-We repeated that same process with all the nads. 
+We repeated that same process with all the hands. 
 
 I learned about using console.log to check whethere a function was working or not. For instance, 
 
       const seconds = now.getSeconds;
-        console.log(seconds); 
+        console.log(seconds);       
         
  This would console.log as the seconds changed. It is an easy way to see different parts oof your function working as you code them . 
  
